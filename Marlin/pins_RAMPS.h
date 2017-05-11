@@ -306,10 +306,10 @@
       #define DOGLCD_A0 27
       #define LCD_BACKLIGHT_PIN 33
     #elif ENABLED(MINIPANEL)
-      #define BEEPER_PIN 42
+      #define BEEPER_PIN 37
       // Pins for DOGM SPI LCD Support
-      #define DOGLCD_A0  44
-      #define DOGLCD_CS  66
+      #define DOGLCD_A0  27
+      #define DOGLCD_CS  25
       #define LCD_BACKLIGHT_PIN 65 // backlight LED on A11/D65
       #define SDSS   53
 
@@ -321,9 +321,9 @@
       //#define LCD_SCREEN_ROT_180
       //#define LCD_SCREEN_ROT_270
       // The encoder and click button
-      #define BTN_EN1 40
-      #define BTN_EN2 63
-      #define BTN_ENC 59
+      #define BTN_EN1 31
+      #define BTN_EN2 33
+      #define BTN_ENC 35
       // not connected to a pin
       #define SD_DETECT_PIN 49
 
